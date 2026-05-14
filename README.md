@@ -1,57 +1,118 @@
-#Superstore Sales Analysis Dashboard
+# 🛒 Superstore Sales Analysis (Excel + Power BI)
 
-**Project Overview**
+## 📌 Project Overview
 
-This project focuses on analyzing a retail Superstore dataset to uncover key business insights related to sales performance, profitability, customer segments, and regional trends. Using Excel for data preparation and Power BI for visualization, the dashboard provides an interactive view of business performance.
+This project analyzes **Superstore sales data** using **Excel and Power BI** to uncover key business insights related to sales performance, profit trends, customer segments, and regional performance.
 
-**Objectives**
-* Analyze overall sales and profit trends
-* Identify top-performing products and categories
-* Understand regional and segment-wise performance
-* Detect patterns in customer purchasing behavior
-* Provide actionable insights for business decision-making
+The objective is to transform raw retail data into an **interactive dashboard and actionable business insights**.
 
+---
 
-**Tools & Technologies Used**
+## 🎯 Objectives
 
-* **Microsoft Excel** – Data cleaning and preprocessing
-* **Power BI** – Data visualization and dashboard creation
-* **CSV Dataset** – Raw data source
+* Clean and prepare raw dataset using Excel
+* Perform exploratory data analysis (EDA)
+* Build interactive dashboards in Power BI
+* Identify sales, profit, and regional trends
+* Support business decision-making with visual insights
 
+---
 
-**Dataset Description**
-The dataset contains transactional sales data with the following key fields:
-* Order Date
-* Region
-* Category & Sub-Category
-* Sales & Profit
+## 🛠️ Tools & Technologies
+
+* Microsoft Excel (Data Cleaning & Preparation)
+* Power BI (Data Visualization & Dashboarding)
+* DAX (Basic Calculations)
+
+---
+
+## 📂 Dataset Information
+
+The dataset contains retail sales data with:
+
+* Order ID
+* Product Category & Sub-Category
 * Customer Segment
+* Region & State
+* Sales
+* Profit
 * Quantity
+* Discount
+* Order Date
 
+---
 
-**Dashboard Features**
+## 🧹 Data Cleaning (Excel)
 
-* **Sales Overview** – Total sales, profit, and quantity KPIs
-* **Category Analysis** – Performance by product categories
-* **Regional Insights** – Sales distribution across regions
-* **Segment Analysis** – Consumer vs Corporate vs Home Office
-* **Trend Analysis** – Sales trends over time
-* **Top Products** – Best-performing items based on revenue
+Performed in Excel:
 
+* Removed duplicates
+* Handled missing values
+* Standardized category names
+* Converted date formats
+* Checked for inconsistent numeric values
 
-**Key Insights**
+---
 
-* The **Technology category** generates the highest revenue
-* Certain regions outperform others consistently in sales
-* Profitability varies significantly across sub-categories
-* Seasonal trends impact overall sales performance
-* A small number of products contribute to a large share of revenue
+## 📊 Dashboard Features (Power BI)
 
+### 📈 Sales Overview
 
-**Business Value**
-This dashboard helps stakeholders:
-* Make data-driven decisions
-* Identify growth opportunities
-* Optimize product and regional strategies
-* Improve profitability
+* Total Sales
+* Total Profit
+* Total Orders
+* Average Discount
 
+### 🌍 Regional Analysis
+
+* Sales by Region
+* Profit by State
+* Regional performance comparison
+
+### 📦 Category Analysis
+
+* Sales by Category & Sub-category
+* Most profitable products
+* Low-performing segments
+
+### 👥 Customer Analysis
+
+* Sales by Customer Segment
+* Segment-wise profitability
+
+---
+
+## 🧠 Key Insights
+
+* Certain regions consistently outperform others in sales
+* Discounts directly impact profitability
+* A small number of product categories contribute most revenue
+* Consumer segment drives majority of sales
+* Some high-sales products still generate low profit
+
+---
+
+## 🚀 What This Project Demonstrates
+
+✔ Excel Data Cleaning Skills
+✔ Power BI Dashboarding
+✔ Data Visualization
+✔ Business Insight Generation
+✔ Analytical Thinking
+
+---
+
+## 📈 Future Improvements
+
+* Add forecasting using Power BI
+* Advanced DAX measures
+* Python integration for deeper analysis
+* Automate data refresh pipeline
+
+---
+
+## 👩‍💻 Author
+
+**Rakshita Poojari**
+Aspiring Data Analyst
+Skills: Excel | Power BI | SQL | Data Visualization
